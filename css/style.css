@@ -1,0 +1,148 @@
+body {
+  color: #212121;
+  margin: 0;
+  text-align: center;
+  font-family: 'Bodoni Moda', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #323232;
+  font-family: 'Cinzel', serif;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #323232;
+  font-family: 'Antic', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #0d7377;
+  font-family: 'Antic', sans-serif;
+}
+
+a {
+  color: #0d7377;
+  font-family: 'Antic', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #14ffec;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #212121 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #0d7377;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #323232;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.web-development {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.c-sharp {
+  width: 25%;
+  float: right;
+}
+
+.second-skill {
+  margin-left: 30%;
+}
+
+.profile-picture {
+  width: 15%;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #323232;
+  background-image: -webkit-linear-gradient(top, #323232, #0d7377);
+  background-image: -moz-linear-gradient(top, #323232, #0d7377);
+  background-image: -ms-linear-gradient(top, #323232, #0d7377);
+  background-image: -o-linear-gradient(top, #323232, #0d7377);
+  background-image: linear-gradient(to bottom, #323232, #0d7377);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Antic', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0d7377;
+  background-image: -webkit-linear-gradient(top, #0d7377, #14ffec);
+  background-image: -moz-linear-gradient(top, #0d7377, #14ffec);
+  background-image: -ms-linear-gradient(top, #0d7377, #14ffec);
+  background-image: -o-linear-gradient(top, #0d7377, #14ffec);
+  background-image: linear-gradient(to bottom, #0d7377, #14ffec);
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
